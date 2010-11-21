@@ -1,8 +1,12 @@
 FBjqRY
 ======
 
-THIS CODE IS A WORK IN PROGRESS AND IS CHANGING FAST, PLEASE STAY TUNED OR USE
-THE LAST AVAILABLE "STABLE" VERSION FROM [http://code.google.com/p/fbjqry/] !
+This project has reached it's end before 1.0 as Facebook decided to discontinue
+FBJS support and go 'back' to iframe based applications instead of FBML !
+
+The last available version is 0.6 - jQuery features covered are those that have
+their unit tests converted from the jQuery code-base (test/unit subdirectory).
+
 
 A wrapper library around Facebook's FBJS, which provides a jQuery-like interface
 for working with FBML (as much as possible).
@@ -14,7 +18,7 @@ for working with FBML (as much as possible).
 API
 ===
 
-Code is based on jQuery 1.3.2 with some 1.4.2 goodies.
+Code is based on jQuery 1.3.2 with some 1.4.x goodies.
 
 Extensions
 ----------
@@ -78,10 +82,6 @@ LIMITATIONS
 
    the `FBjqRY.data()` method does not trigger any handlers as jQuery does
 
-Issues
-------
-
-
 
 Setup
 =====
@@ -92,17 +92,12 @@ For building the project see the `build.js` file.
 
 Instructions for development setup might be found under test/README !
 
-Logging
--------
-
-TODO
-
 
 [http://docs.jquery.com](jQuery Documentation)
 
 [http://wiki.developers.facebook.com/index.php/FBJS](FBJS Documentation)
 
-[http://code.google.com/p/fbjqry](FbjqRY 'old' project page)
+[http://code.google.com/p/fbjqry](FBjqRY 'old' project page)
 
 Code inspired by [http://jquery.com](jQuery), jQuery is licensed under MIT.
 
